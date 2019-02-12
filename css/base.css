@@ -1,0 +1,23 @@
+@media screen and (max-width: 767px){
+  html{
+    width: 480px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  body{
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+@media screen and (min-width: 768){
+  html{
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  body{
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

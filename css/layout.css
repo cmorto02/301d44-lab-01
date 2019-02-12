@@ -1,0 +1,149 @@
+@media (min-width: 480px) and (max-width: 767px) {
+
+  header{
+    outline: 1px dashed black;
+    outline-offset: -1px;
+    height: 75px;
+    width: 480px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  main{
+    outline: 1px dashed black;
+    outline-offset: -1px;
+    height: 980px;
+    width: 480px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  #left{
+    outline: 1px dashed black;
+    outline-offset: -1px;
+    height: 150px;
+    width: 480px;
+  }
+  
+  #top{
+    outline: 1px dashed black;
+    outline-offset: -1px;
+  }
+  
+  #cd li{
+    outline: 1px dashed black;
+    outline-offset: -1px;
+    height: 125px;
+    width: 480px;
+  }
+  
+  #mid{
+    outline: 1px dashed black;
+    outline-offset: -1px;
+  }
+  
+  #efgh{
+    float:left;
+    height: 500px;
+    width: 480px;
+  }
+  
+  #efgh li{
+    outline: 1px dashed black;
+    outline-offset: -1px;
+    height: 250px;
+    width: 240px;
+    float: left;
+  }
+  
+  #bottom{
+    clear: both;
+    outline: 1px dashed black;
+    outline-offset: -1px;
+    height: 80px;
+    width: 480px;
+  }
+}
+
+
+
+@media (min-width: 768px) {
+
+  header{
+    outline: 1px dashed black;
+    outline-offset: -1px;
+    height: 100px;
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  main{
+    outline: 1px dashed black;
+    outline-offset: -1px;
+    height: 600px;
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #left{
+    outline: 1px dashed black;
+    outline-offset: -1px;
+    height: 600px;
+    width: 200px;
+    float: left;
+  }
+
+  #top{
+    outline: 1px dashed black;
+    outline-offset: -1px;
+    height: 200px;
+    width: 760px;
+    float: right;
+  }
+
+  #cd li{
+    outline: 1px dashed black;
+    outline-offset: -1px;
+    height: 200px;
+    width: 380px;
+  }
+
+  #c{
+    float: left;
+  }
+
+  #d{
+    float:right;
+  }
+
+  #mid{
+    outline: 1px dashed black;
+    outline-offset: -1px;
+    height: 250px;
+    width: 760px;
+    float: right;
+  }
+
+  #efgh{
+    float:left;
+  }
+
+  #efgh li{
+    float: left;
+    outline: 1px dashed black;
+    outline-offset: -1px;
+    padding: 0px;
+    height: 250px;
+    width: 190px;
+  }
+
+  #bottom{
+    float: right;
+    outline: 1px dashed black;
+    outline-offset: -1px;
+    height: 150px;
+    width: 760px;
+  }
+}
