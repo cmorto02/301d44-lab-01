@@ -1,6 +1,7 @@
-@media (min-width: 480px) and (max-width: 767px) {
+@media (max-width: 767px) {
 
   header{
+    background-color: aliceblue;
     outline: 1px dashed black;
     outline-offset: -1px;
     height: 75px;
@@ -19,6 +20,7 @@
   }
   
   #left{
+    background-color: green;
     outline: 1px dashed black;
     outline-offset: -1px;
     height: 150px;
@@ -29,7 +31,15 @@
     outline: 1px dashed black;
     outline-offset: -1px;
   }
+
+  #c{
+    background-color: rebeccapurple;
+  }
   
+  #d{
+    background-color: blanchedalmond;
+  }
+
   #cd li{
     outline: 1px dashed black;
     outline-offset: -1px;
@@ -47,7 +57,23 @@
     height: 500px;
     width: 480px;
   }
+
+  #e{
+    background-color: burlywood;
+  }
   
+  #f{
+    background-color: peru;
+  }
+
+  #g{
+    background-color: olivedrab;
+  }
+
+  #h{
+    background-color: fuchsia;
+  }
+
   #efgh li{
     outline: 1px dashed black;
     outline-offset: -1px;
@@ -57,6 +83,7 @@
   }
   
   #bottom{
+    background-color: darkgreen;
     clear: both;
     outline: 1px dashed black;
     outline-offset: -1px;
@@ -70,6 +97,7 @@
 @media (min-width: 768px) {
 
   header{
+    background-color: rebeccapurple;
     outline: 1px dashed black;
     outline-offset: -1px;
     height: 100px;
@@ -88,6 +116,7 @@
   }
 
   #left{
+    background-color: yellowgreen;
     outline: 1px dashed black;
     outline-offset: -1px;
     height: 600px;
@@ -101,6 +130,14 @@
     height: 200px;
     width: 760px;
     float: right;
+  }
+
+  #c{
+    background-color: teal;
+  }
+  
+  #d{
+    background-color: hotpink;
   }
 
   #cd li{
@@ -130,6 +167,22 @@
     float:left;
   }
 
+  #e{
+    background-color: royalblue;
+  }
+  
+  #f{
+    background-color: wheat;
+  }
+
+  #g{
+    background-color: cadetblue;
+  }
+
+  #h{
+    background-color: brown;
+  }
+
   #efgh li{
     float: left;
     outline: 1px dashed black;
@@ -140,6 +193,7 @@
   }
 
   #bottom{
+    background-color: orangered;
     float: right;
     outline: 1px dashed black;
     outline-offset: -1px;
