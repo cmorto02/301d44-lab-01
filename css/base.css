@@ -1,19 +1,22 @@
 @media screen and (min-width: 480px) and (max-width: 767px){
-  html{
-    width: 480px;
+  body{
+    width: 30rem;
+    height: 100vw;
     margin-left: auto;
     margin-right: auto;
   }
 }
 
 
-@media screen and (min-width: 768px) and (max-width: 1024px){
-  html{
-    width: 960px;
+@media screen and (min-width: 768px){
+  body{
+    width: 60%;
+    height: 55vw;
     margin-left: auto;
     margin-right: auto;
   }
 }
+
 
 .center {
   position: relative;
