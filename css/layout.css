@@ -1,35 +1,30 @@
 @media screen and (min-width: 480px) and (max-width: 767px) {
 
+  .container{
+    display: flex;
+    flex-flow: column;
+    align-content: center;
+  }
+
   header{
     background-color: aliceblue;
     outline: 1px dashed black;
     outline-offset: -1px;
-    height: 75px;
-    width: 480px;
-    margin-left: auto;
-    margin-right: auto;
+    height: 5.7rem;
+    width: 30rem;
   }
   
   main{
-    outline: 1px dashed black;
-    outline-offset: -1px;
-    height: 980px;
-    width: 480px;
-    margin-left: auto;
-    margin-right: auto;
+    height: 75rem;
+    width: 30rem;
   }
   
   #left{
     background-color: green;
     outline: 1px dashed black;
     outline-offset: -1px;
-    height: 150px;
-    width: 480px;
-  }
-  
-  #top{
-    outline: 1px dashed black;
-    outline-offset: -1px;
+    height: 9rem;
+    width: 30rem;
   }
 
   #c{
@@ -43,20 +38,10 @@
   #cd li{
     outline: 1px dashed black;
     outline-offset: -1px;
-    height: 125px;
-    width: 480px;
+    height: 7.5rem;
+    width: 30rem;
   }
-  
-  #mid{
-    outline: 1px dashed black;
-    outline-offset: -1px;
-  }
-  
-  #efgh{
-    float:left;
-    height: 500px;
-    width: 480px;
-  }
+ 
 
   #e{
     background-color: burlywood;
@@ -74,62 +59,78 @@
     background-color: fuchsia;
   }
 
+  #efgh{
+    display: flex;
+    flex-wrap: wrap;
+    outline: 1px dashed black;
+    outline-offset: -1px;
+    width: 30rem;
+    height: 33rem;
+  }
+
   #efgh li{
     outline: 1px dashed black;
     outline-offset: -1px;
-    height: 250px;
-    width: 240px;
-    float: left;
+    height: 16.5rem;
+    width: 15rem;
   }
   
   #bottom{
     background-color: darkgreen;
-    clear: both;
     outline: 1px dashed black;
     outline-offset: -1px;
-    height: 80px;
-    width: 480px;
+    height: 5.9rem;
+    width: 30rem;
   }
 }
 
 
 
-@media screen and (min-width: 768px) and (max-width: 1024px){
+@media screen and (min-width: 768px){
+
+  .container{
+    display: flex;
+    align-content: center;
+    flex-flow: row wrap;
+    width: 100%;
+    height: 100%;
+  }
 
   header{
     background-color: rebeccapurple;
     outline: 1px dashed black;
     outline-offset: -1px;
-    height: 100px;
-    width: 960px;
-    margin-left: auto;
-    margin-right: auto;
+    width: 100%;
+    height: 14.28%;
   }
 
   main{
+    justify-content: flex-start;
+    display: flex;
+    flex-flow: column;
     outline: 1px dashed black;
     outline-offset: -1px;
-    height: 600px;
-    width: 960px;
     margin-left: auto;
     margin-right: auto;
+    width: 100%;
+    height: 85.71%;
   }
 
   #left{
+    flex: 0 12em;
     background-color: yellowgreen;
     outline: 1px dashed black;
     outline-offset: -1px;
-    height: 600px;
-    width: 200px;
-    float: left;
+    height: 100%;
+    width: 20.8%;
   }
 
   #top{
+    /* flex: 1; */
     outline: 1px dashed black;
     outline-offset: -1px;
-    height: 200px;
-    width: 760px;
-    float: right;
+    width: 79.2%;
+    height: 33%;
   }
 
   #c{
@@ -140,31 +141,32 @@
     background-color: hotpink;
   }
 
+  #cd{
+    display: flex;
+    width: 100%;
+    height: 100%;
+
+  }
+
   #cd li{
     outline: 1px dashed black;
     outline-offset: -1px;
-    height: 200px;
-    width: 380px;
-  }
-
-  #c{
-    float: left;
-  }
-
-  #d{
-    float:right;
+    width: 50%;
+    height: 100%;
   }
 
   #mid{
+    flex: 0;
     outline: 1px dashed black;
     outline-offset: -1px;
-    height: 250px;
-    width: 760px;
-    float: right;
+    width: 79.2%;
+    height: 41.66%;
   }
 
   #efgh{
-    float:left;
+    width: 100%;
+    height: 100%;
+    display: flex;
   }
 
   #e{
@@ -184,20 +186,17 @@
   }
 
   #efgh li{
-    float: left;
     outline: 1px dashed black;
     outline-offset: -1px;
-    padding: 0px;
-    height: 250px;
-    width: 190px;
+    width: 25%;
+    height: 100%;
   }
 
   #bottom{
     background-color: orangered;
-    float: right;
     outline: 1px dashed black;
     outline-offset: -1px;
-    height: 150px;
-    width: 760px;
+    width: 79.2%;
+    height: 25%;
   }
 }
